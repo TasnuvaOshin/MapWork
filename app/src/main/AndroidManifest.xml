@@ -30,7 +30,7 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".Direction.DirectionActivity"
+            android:name=".Navigation.NavActivity"
             android:label="@string/title_activity_maps">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -41,7 +41,8 @@
         <activity android:name=".MapsActivity" />
         <activity android:name=".MyMap.MapActivity" />
         <activity android:name=".AutoSearch.AutoCompleteActivity" />
-        <activity android:name=".TestMapActivity"></activity>
+        <activity android:name=".TestMapActivity" />
+        <activity android:name=".Direction.DirectionActivity"></activity>
     </application>
 
 </manifest>

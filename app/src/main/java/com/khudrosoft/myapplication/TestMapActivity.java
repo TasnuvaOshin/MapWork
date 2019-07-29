@@ -36,6 +36,8 @@ import androidx.core.content.ContextCompat;
 
 import static com.khudrosoft.myapplication.MyMap.MapActivity.MY_PERMISSIONS_REQUEST_LOCATION;
 
+//this is the search working file
+
 public class TestMapActivity extends AppCompatActivity implements OnMapReadyCallback {
     private String Api_key;
     private PlacesClient placesClient;
