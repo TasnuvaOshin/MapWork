@@ -5,7 +5,19 @@ Simple Map Work
 Permission is The Must #MAP
 
 ****************************************************************************************************************************************
-   public boolean checkLocationPermission() {
+  
+  ....
+  
+  ....
+  
+  ....
+  
+  
+  
+  
+  
+  
+  public boolean checkLocationPermission() {
         if (ContextCompat.checkSelfPermission(this,
                 Manifest.permission.ACCESS_FINE_LOCATION)
                 != PackageManager.PERMISSION_GRANTED) {
