@@ -30,7 +30,7 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".Navigation.NavActivity"
+            android:name=".Distance.CalculateDistance"
             android:label="@string/title_activity_maps">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -42,7 +42,8 @@
         <activity android:name=".MyMap.MapActivity" />
         <activity android:name=".AutoSearch.AutoCompleteActivity" />
         <activity android:name=".TestMapActivity" />
-        <activity android:name=".Direction.DirectionActivity"></activity>
+        <activity android:name=".Direction.DirectionActivity" />
+        <activity android:name=".Navigation.NavActivity"></activity>
     </application>
 
 </manifest>
