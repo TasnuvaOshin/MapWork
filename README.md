@@ -13,16 +13,23 @@ Permission is The Must #MAP
   ....
   
   
+
   
   
   
   
-  public boolean checkLocationPermission() {
+  
+  
+
+
+            // Should we show an explanation?
+	    
+	     public boolean checkLocationPermission() {
         if (ContextCompat.checkSelfPermission(this,
                 Manifest.permission.ACCESS_FINE_LOCATION)
                 != PackageManager.PERMISSION_GRANTED) {
-
-            // Should we show an explanation?
+		
+		
             if (ActivityCompat.shouldShowRequestPermissionRationale(this,
                     Manifest.permission.ACCESS_FINE_LOCATION)) {
 
