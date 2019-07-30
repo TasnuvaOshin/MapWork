@@ -30,7 +30,7 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".Distance.CalculateDistance"
+            android:name=".NearByLocation.NearByLocation"
             android:label="@string/title_activity_maps">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -43,7 +43,8 @@
         <activity android:name=".AutoSearch.AutoCompleteActivity" />
         <activity android:name=".TestMapActivity" />
         <activity android:name=".Direction.DirectionActivity" />
-        <activity android:name=".Navigation.NavActivity"></activity>
+        <activity android:name=".Navigation.NavActivity" />
+        <activity android:name=".Distance.CalculateDistance"></activity>
     </application>
 
 </manifest>
